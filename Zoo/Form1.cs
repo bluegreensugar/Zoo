@@ -15,7 +15,9 @@ namespace Zoo
         public Form1()
         {
             InitializeComponent();
-            this.BackColor = Color.Aquamarine;
+            this.BackgroundImage = Image.FromFile("E:\\учеба\\Программки\\Zoo\\game_background_concept___zoo_by_legacyofpiracy_d3k3a4k-fullview.jpg");
+            this.StartPosition = FormStartPosition.CenterScreen;
+
             this.StartPosition = FormStartPosition.CenterScreen;
 
         }
